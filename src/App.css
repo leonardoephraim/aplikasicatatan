@@ -1,0 +1,55 @@
+    body {
+      margin: 60px;
+      background-color: #083461;
+    }
+
+    .container {
+      background-color: #2aa0e4;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    .card {
+      width: 48%;
+      margin-bottom: 16px;
+      padding: 16px;
+      background-color: #e8eb69;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      border: 2px solid #007bff;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    #noteTitle {
+      color: #007bff;
+    }
+
+    #noteCreatedAt {
+      color: #6c757d;
+    }
+
+    #noteBody {
+      color: #212529;
+    }
+
+    #backToHome {
+      color: #007bff;
+      text-decoration: underline;
+      cursor: pointer;
+      margin-bottom: 5px;
+    }
+
+    #backToHome:hover {
+      color: #0056b3;
+    }
+
+    .btn-outline-primary {
+      color: #000000;
+      border-color: #007bff;
+      background-color: #e8eb69;
+    }
