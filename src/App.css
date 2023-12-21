@@ -1,0 +1,77 @@
+body {
+  background-image: url('https://wallpapercave.com/wp/wp8174943.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+}
+
+.card {
+  width: 48%;
+  margin-bottom: 16px;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: 2px solid #007bff;
+  transition: transform 0.3s ease-in-out;
+}
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    #noteTitle {
+      color: #007bff;
+    }
+
+    #noteCreatedAt {
+      color: #6c757d;
+    }
+
+    #noteBody {
+      color: #212529;
+    }
+
+    #backToHome {
+      color: #007bff;
+      text-decoration: underline;
+      cursor: pointer;
+      margin-bottom: 5px;
+    }
+
+    #backToHome:hover {
+      color: #0056b3;
+    }
+
+    .btn-outline-primary {
+      color: #000000;
+      border-color: #007bff;
+      background-color: #e8eb69;
+    }
+
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .login-form, .register-form {
+      width: 600px;
+      padding: 20px;
+      background-color: #2aa0e4;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
